@@ -17,8 +17,7 @@ SECTION = 'DOWNLOAD_SERVER'
 def pibooth_configure(cfg):
     """Declare the new configuration options"""
     cfg.add_option(SECTION, 'upload_available_seconds', 300,
-                   "Duration the image is available",
-                   "Download Availability Duration", 300)
+                   "Duration the image is available")
 
 
 @pibooth.hookimpl
